@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+    xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <style>
+        body {
+            margin: 0;
+            background-color: #204969;
+        }
+
+        .form-example {
+            margin: 50px;
+            margin-top: 10px;
+            border-radius: 10px;
+            padding-top: 10px;
+            background-color: #73C2AD
+        }
+
+        .form-example__container {
+            display: flex;
+            width: 1157px;
+            margin-left: 40px;
+        }
+
+        .div1 {
+            margin-left: 160px;
+            width: 700px;
+        }
+
+        .div2 {
+            margin-left: 100px;
+            width: 700px;
+
+        }
+
+        .form-example__box label {
+            display: block;
+            color: #fff;
+        }
+
+        .form-button {
+            background-color: #204969;
+            color: white;
+            width: 149px;
+            margin-left: 545px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .form-example__container {
+            width: 1000px;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 5px;
+            height: 30px;
+            border: #fff;
+            margin-top: 2px;
+            padding: 0;
+        }
+        .texto{
+            margin: 0px;
+            color: white;
+        }
+        #texto1{
+            padding-left: 304px;
+        }
+        #texto2{
+            padding-left: 368px;
+        }
+        #texto3{
+            padding-left: 493px;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="background-color: #fff; align-items: center; display: flex;">
+        <a href="https://hospitalarshop.com.br">
+            <img style="margin-left: 497px" src="assets/hospitalar logo_Prancheta 1 1.png" alt="">
+        </a>
+    </header>
+    <div style="padding-top: 5px;">
+        <h2 class="texto" id="texto1">Bem vindo à Hospitalar Shop, o mais completo Marketplace de saúde</h2>
+        <h3 class="texto" id="texto2">Venha fazer parte do nosso time e vender seus produtos e serviços conosco!</h3>
+        <h4 class="texto" id="texto3">Acesse nosso site e conheça nossa árvore de produtos</h4>
+    </div>
+    <form class="form-example">
+        <div class="form-example__container">
+            <div class="div1">
+                <div class="form-example__box">
+                    <label for="name">Razão Social</label>
+                    <input type="text" name="razao" class="form-razao" />
+                </div>
+                <div class="form-example__box">
+                    <label for="lastname">Nome fantasia</label>
+                    <input type="text" name="fantasia" class="form-fantasia" />
+                </div>
+                <div class="form-example__box">
+                    <label for="city">CNPJ</label>
+                    <input type="text" name="cnpj" class="form-cnpj" />
+                </div>
+                <div class="form-example__box">
+                    <label for="company">Inscrição Estadual</label>
+                    <input type="text" name="inscricao" class="form-inscricao" />
+                </div>
+                <div class="form-example__box">
+                    <label for="name">Nome do responsável</label>
+                    <input type="text" name="nameresponsavel" class="form-nomeresponsavel" />
+                </div>
+                <div class="form-example__box">
+                    <label for="lastname">Sobrenome do responsável</label>
+                    <input type="text" name="lastname" class="form-lastname" />
+                </div>
+            </div>
+            <div class="div2">
+                <div class="form-example__box">
+                    <label for="city">Email</label>
+                    <input type="text" name="email" class="form-email" />
+                </div>
+                <div class="form-example__box">
+                    <label for="company">Estado</label>
+                    <input type="text" name="estado" class="form-estado" />
+                </div>
+                <div class="form-example__box">
+                    <label for="name">Cidade</label>
+                    <input type="text" name="city" class="form-city" />
+                </div>
+                <div class="form-example__box">
+                    <label for="lastname">Website</label>
+                    <input type="text" name="url" class="form-url" />
+                </div>
+                <div class="form-example__box">
+                    <label for="city">Celular</label>
+                    <input type="text" name="city" class="form-phone" />
+                </div>
+                <div class="form-example__box">
+                    <label for="company">Você já vende em algum Marketplace? Se sim, quais?</label>
+                    <input type="text" name="marketplace" class="form-marketplace" />
+                </div>
+            </div>
+        </div>
+        <input class="form-button" type="submit" value="Submit" />
+    </form>
+    <footer>
+        <p style="color: white; margin-left: 594px;">Hospitalar Shop | 2023</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
